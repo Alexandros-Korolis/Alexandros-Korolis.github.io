@@ -1,0 +1,95 @@
+.cl-yellow {
+	background-color: rgb(255, 239, 204);
+}
+
+.margin-pic {
+	margin-top:40%;
+}
+
+img {
+	border-radius: 50%;
+}
+
+h1 {
+	color:rgb(73,104,118);
+	margin-bottom:30%;
+}
+
+.rectangle {
+	height:5px;
+	width:100px;
+	background-color:rgb(73,104,118);
+	margin-bottom:20%;
+}
+
+.profile {
+	color:rgb(73,104,118);
+	margin-bottom:10%;
+}
+
+.skills {
+	color:rgb(73,104,118);
+	margin-bottom:10%;
+}
+
+.contact {
+	color:rgb(73,104,118);
+	margin-bottom:10%;
+}
+
+.cl-blue {
+	background-color:rgb(73,104,118);
+}
+
+.rect {
+	height:40px;
+	width:450px;
+	background-color:rgb(255, 239, 204);
+	margin-top:20%;
+	margin-bottom:5%;
+}
+
+.education {
+	color:rgb(73,104,118);
+	text-align:center;
+}
+
+.white {
+	color:white;
+	
+}
+
+.rect-language {
+	height:40px;
+	width:450px;
+	background-color:rgb(255, 239, 204);
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.language {
+	color:rgb(73,104,118);
+	text-align:center;
+}
+
+.rect-exp {
+	height:40px;
+	width:450px;
+	background-color:rgb(255, 239, 204);
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.exp {
+	color:rgb(73,104,118);
+	text-align:center;
+}
+
+.margin-paragraph {
+	margin-left:20%;
+}
+
+body {
+	margin-top:2%;
+	margin-bottom:2%;
+}

@@ -1,0 +1,14 @@
+.inline-block {
+	display:inline-block !important;
+}
+
+.border {
+	
+	border:10px solid blue;	
+}
+
+.back-color-black {
+	background-color:grey;
+	border:10px solid grey;
+	
+}

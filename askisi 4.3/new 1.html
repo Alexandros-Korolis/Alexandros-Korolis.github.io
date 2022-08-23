@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	
+		<meta charset="utf-8">
+		<title>Exercise 4.3.1</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+	</head>
+	
+	<body>
+		<form>
+			<div class="container col-6 col-sm-4 col-md-2 col-lg-2 back-color-black mt-5">				
+				<div class="row justify-content-md-center ">
+					<label for="num1"></label>
+					<input type="text" id="num1" name="num1">
+				</div>					
+				<div class="row justify-content-md-center mt-2">
+					<input class="form-control" id="calc" type="text" value="Αποτέλεσμα" aria-label="Disabled input example" readonly>		
+				</div>
+				<div class="row justify-content-md-center mt-2">
+					<button type="button" onclick="one()" class="col">1</button>
+					<button type="button" onclick="two()" class="col">2</button>
+					<button type="button" onclick="three()" class="col">3</button>
+				</div>
+				<div class="row justify-content-md-center mt-2">
+					<button type="button" onclick="four()" class="col">4</button>
+					<button type="button" onclick="five()" class="col">5</button>
+					<button type="button" onclick="six()" class="col">6</button>
+				</div>
+				<div class="row justify-content-md-center mt-2">
+					<button type="button" onclick="seven()" class="col">7</button>
+					<button type="button" onclick="eight()" class="col">8</button>
+					<button type="button" onclick="nine()" class="col">9</button>
+				</div>
+				<div class="row justify-content-md-center mt-2">
+					<button type="button" onclick="zero()" class="col">0</button>
+					<button type="button" onclick="prosthesi()" class="col">+</button>
+					<button type="button" onclick="polaplasiasmos()" class="col">*</button>
+				</div>
+				<div class="row justify-content-md-center mt-2">
+					<button type="button" onclick="diairesi()" class="col">/</button>
+					<button type="button" onclick="afairesi()" class="col">-</button>
+					<button type="button" onclick="calculate()" class="col">=</button>
+				</div>
+				<div class="row mt-2">
+					<button type="button" onclick="erase()" class="col">Clear</button>
+				</div>
+			</div>
+		</form>
+		<script>
+		
+		function one(){
+			var arithmos1=document.getElementById("num1").value=document.getElementById("num1").value+1;
+		}
+		
+		function two(){
+			document.getElementById("num1").value=document.getElementById("num1").value+2;
+		}
+		
+		function three(){
+			document.getElementById("num1").value=document.getElementById("num1").value+3;
+		}
+		
+		function four(){
+			document.getElementById("num1").value=document.getElementById("num1").value+4;
+		}
+		
+		function five(){
+			document.getElementById("num1").value=document.getElementById("num1").value+5;
+		}
+		
+		function six(){
+			document.getElementById("num1").value=document.getElementById("num1").value+6;
+		}
+		
+		function seven(){
+			document.getElementById("num1").value=document.getElementById("num1").value+7;
+		}
+		
+		function eight(){
+			document.getElementById("num1").value=document.getElementById("num1").value+8;
+		}		
+		
+		function nine(){
+			document.getElementById("num1").value=document.getElementById("num1").value+9;
+		}
+		
+		function zero(){
+			document.getElementById("num1").value=document.getElementById("num1").value+0;
+		}
+		
+		
+		
+		
+		function prosthesi(){
+			document.getElementById("num1").value=document.getElementById("num1").value+ "+";
+		}
+					
+		function afairesi() {
+			document.getElementById("num1").value= document.getElementById("num1").value+"-";
+		}
+		
+		function polaplasiasmos(){
+			document.getElementById("num1").value= document.getElementById("num1").value+"*";
+		}
+		
+		function diairesi(){
+			document.getElementById("num1").value= document.getElementById("num1").value+"/";
+		}
+		
+		function calculate() {
+			document.getElementById("calc").value=eval(document.getElementById("num1").value);
+		}
+		
+		function erase(){
+			document.getElementById("num1").value="";
+		}
+		
+			
+		</script>
+		
+	</body>
+
+</html>
